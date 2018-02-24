@@ -10,7 +10,7 @@ using namespace std;
 
 void main ()
 {	float area, radio, pi=3.1415;
-    cout<<"Ingrese el radio: ";
+    	cout<<"Ingrese el radio: ";
 	cin>>radio;
 	area= pi*(pow(radio,2));
 	cout<<"Es area es:"<<area;

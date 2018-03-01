@@ -1,0 +1,25 @@
+// Ej. Ejercicio7 - Practico2.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "Math.h"
+
+using namespace std;
+
+void main ()
+{	float capital, Interes, I, Monto;
+	int Anos;
+    cout<<"Ingrese el capital ";
+	cin>>capital;
+	cout<<"Ingrese años de trabajo ";
+	cin>>Anos;
+	cout<<"Ingrese el interes: ";
+	cin>>Interes;
+	I=Interes/100;
+    Monto=capital*(pow((1+I),Anos));
+	cout<<"El interes compuesto es:"<<Monto;
+
+	_getch ();
+}
